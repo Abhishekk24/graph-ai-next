@@ -1,17 +1,13 @@
-import FileUploader from '../components/FileUploader';
-import GraphDisplay from '../components/GraphDisplay';
+import React from "react";
+
+import GraphAI from "../components/GraphAI";
+
 
 const Home = () => {
-    const handleUploadSuccess = () => {
-        alert("File uploaded successfully. Ready for analysis.");
-    };
-
     return (
-        <div>
-            <h1>Graph_AI: AI-Powered Graph Generator</h1>
-            <FileUploader onUploadSuccess={handleUploadSuccess} />
-            <GraphDisplay />
-        </div>
+        <>
+            <GraphAI />
+        </>
     );
 };
 

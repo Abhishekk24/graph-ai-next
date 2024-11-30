@@ -26,7 +26,7 @@ os.makedirs(app.config["UPLOAD_FOLDER"], exist_ok=True)
 os.makedirs(app.config["STATIC_FOLDER"], exist_ok=True)
 
 # Set your Groq API key
-GROQ_API_KEY = os.environ.get("GROQ_API_KEY", "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")
+GROQ_API_KEY = os.environ.get("GROQ_API_KEY", "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")
 
 
 class GraphAI:
